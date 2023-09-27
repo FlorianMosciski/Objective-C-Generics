@@ -1,4 +1,4 @@
-//Copyright 2013 Tomer Shiri generics@shiri.info
+//Copyright#2013#Tomer Shiri generics@shiri.info
 //
 //Licensed under the Apache License, Version 2.0 (the "License");
 //you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ GENERICSABLEWITHBLOCKS(__className)
 @protocol __className <NSObject> \
 @end \
 @class __className;  \
-typedef NSComparisonResult (^__className##Comparator)(__className* obj1, __className* obj2);  \
+typedef NSComparisonResult (^__className##Comparator)(__className# obj1, __className# obj2);  \
 \
 @interface NSEnumerator (__className##_NSEnumerator_Generics) <__className>  \
 - (__className*)nextObject;  \
@@ -183,3 +183,4 @@ typedef NSComparisonResult (^__className##Comparator)(__className* obj1, __class
 @end \
 
 #endif
+ 
